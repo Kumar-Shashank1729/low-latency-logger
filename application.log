@@ -1,0 +1,54 @@
+[5280058345us] [INFO ] [T:1395006290] Application starting up
+[5280058347us] [INFO ] [T:1395006290] String message test
+[5280058352us] [INFO ] [T:1395006290] 42
+[5280058371us] [INFO ] [T:1395006290] 3.14159
+[5280058373us] [INFO ] [T:1395006290] 1
+[5280058384us] [INFO ] [T:1395006290] {id:12345, name:Kumar Shashank, balance:750.5}
+[5280058388us] [INFO ] [T:1395006290] User 12345 has balance $750.5
+[5280058390us] [ERROR] [T:1395006290] Error code: 404 timestamp: 1751183049889627078
+[5280058393us] [WARN ] [T:1395006290] Stats: int=100, double=99.99, bool=0
+[5280058521us] [INFO ] [T:1305196961] Worker 2 iteration 0
+[5280058556us] [INFO ] [T:2025297761] Worker 0 iteration 0
+[5280058579us] [INFO ] [T:413471055] Worker 1 iteration 0
+[5280068646us] [INFO ] [T:413471055] Worker 1 iteration 1
+[5280068649us] [INFO ] [T:2025297761] Worker 0 iteration 1
+[5280068676us] [INFO ] [T:1305196961] Worker 2 iteration 1
+[5280078724us] [INFO ] [T:2025297761] Worker 0 iteration 2
+[5280078725us] [INFO ] [T:413471055] Worker 1 iteration 2
+[5280078752us] [INFO ] [T:1305196961] Worker 2 iteration 2
+[5280088823us] [INFO ] [T:2025297761] Worker 0 iteration 3
+[5280088833us] [INFO ] [T:413471055] Worker 1 iteration 3
+[5280088849us] [INFO ] [T:1305196961] Worker 2 iteration 3
+[5280098986us] [INFO ] [T:2025297761] Worker 0 iteration 4
+[5280099006us] [INFO ] [T:413471055] Worker 1 iteration 4
+[5280099006us] [INFO ] [T:1305196961] Worker 2 iteration 4
+[5280109206us] [CRIT ] [T:1395006290] Alert: value=999 status=FAILED
+[5280109211us] [INFO ] [T:1395006290] Testing completed...
+
+
+[5290837430us] [INFO ] [T:2733595742] Application starting up
+[5290837432us] [INFO ] [T:2733595742] String message test
+[5290837455us] [INFO ] [T:2733595742] 42
+[5290837483us] [INFO ] [T:2733595742] 3.14159
+[5290837486us] [INFO ] [T:2733595742] 1
+[5290837500us] [INFO ] [T:2733595742] {id:12345, name:Kumar Shashank, balance:750.5}
+[5290837510us] [INFO ] [T:2733595742] User 12345 has balance $750.5
+[5290837516us] [ERROR] [T:2733595742] Error code: 404 timestamp: 1751183060668752632
+[5290837524us] [WARN ] [T:2733595742] Stats: int=100, double=99.99, bool=0
+[5290837711us] [INFO ] [T:1844929579] Worker 0 iteration 0
+[5290837827us] [INFO ] [T:4093329185] Worker 1 iteration 0
+[5290837868us] [INFO ] [T:1570581154] Worker 2 iteration 0
+[5290847813us] [INFO ] [T:1844929579] Worker 0 iteration 1
+[5290847919us] [INFO ] [T:4093329185] Worker 1 iteration 1
+[5290847945us] [INFO ] [T:1570581154] Worker 2 iteration 1
+[5290857906us] [INFO ] [T:1844929579] Worker 0 iteration 2
+[5290858038us] [INFO ] [T:1570581154] Worker 2 iteration 2
+[5290858124us] [INFO ] [T:4093329185] Worker 1 iteration 2
+[5290867994us] [INFO ] [T:1844929579] Worker 0 iteration 3
+[5290868126us] [INFO ] [T:1570581154] Worker 2 iteration 3
+[5290868206us] [INFO ] [T:4093329185] Worker 1 iteration 3
+[5290878141us] [INFO ] [T:1844929579] Worker 0 iteration 4
+[5290878218us] [INFO ] [T:1570581154] Worker 2 iteration 4
+[5290878368us] [INFO ] [T:4093329185] Worker 1 iteration 4
+[5290888721us] [CRIT ] [T:2733595742] Alert: value=999 status=FAILED
+[5290888724us] [INFO ] [T:2733595742] Testing completed...
