@@ -2,8 +2,13 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    Logger log;
-    log.info("Logger initialized.");
+    Logger logger;
+    std::cout << "Application started. Logging to application.log" << std::endl;
+    logger.log(LogLevel::INFO, "Application started successfully.");
+
+    // Your application logic would go here
+
+    logger.log(LogLevel::INFO, "Application is shutting down.");
+    std::cout << "Application finished." << std::endl;
     return 0;
 }

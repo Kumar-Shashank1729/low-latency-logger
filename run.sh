@@ -7,7 +7,8 @@ echo "Building project..."
 if cmake --build build; then
     echo -e "\e[32mBuild successful!\e[0m"
     echo "Running executable..."
-    ./build/low_latency_logger
+    rm -f application.log
+    ./build/logger_tests
 else
     echo -e "\e[31mBuild failed!\e[0m"
     echo "Check the error messages above."
